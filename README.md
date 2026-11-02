@@ -1,5 +1,10 @@
 # Ex01 Portfolio
-## Date: 30-10-2026
+## Date: 31/10/2026
+
+```
+Name :  DARSHINI R
+Reg. No : 212225040054
+```
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,243 +53,142 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
-## index.html
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Darshini R | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>PORTFOLIO</h1>
-</header>
+    <header>
+        <nav>
+            <h2 class="logo">Darshini R.</h2>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section>
-    <img src="profile.jpeg" width="200">
-    <h2>Welcome</h2>
-    <p>I am a B.E. CSE student with skills in Python, C, Java, HTML and CSS.</p>
-</section>
-<footer>
-    <p>&copy; Darshini. All Rights Reserved.</p>
-    
-</footer>
+    <section id="home">
+
+        <img src="images/profile.jpeg"
+             alt="Darshini Profile Photo"
+             class="profile-img">
+
+        <h1>Hello, I'm Darshini R</h1>
+
+        <h3>AI & Data Science Student | Web Developer</h3>
+
+        <p>
+            I am passionate about technology, programming,
+            artificial intelligence and web development.
+        </p>
+
+        <p>Registration Number: 212225040054</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </section>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a B.Tech Artificial Intelligence and Data Science
+            student interested in building innovative technology
+            solutions. I enjoy developing websites, exploring AI
+            and learning new technologies.
+        </p>
+
+        <h3>My Skills</h3>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>React</span>
+            <span>SQL</span>
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A personal portfolio website built using
+                    HTML and CSS.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Todo Application</h3>
+                <p>
+                    A task management application developed
+                    using JavaScript.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Tour Planner</h3>
+                <p>
+                    An AI-powered application that helps users
+                    plan their trips.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: darshini.monish@gmail.com</p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/darshini-r-a10076394/"
+               target="_blank">
+                My LinkedIn
+            </a>
+        </p>
+
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 Darshini R. All Rights Reserved.
+        </p>
+    </footer>
+
 </body>
 </html>
 ```
-## about.html
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>About</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>About Me</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section>
-    <h2>About Me</h2>
-
-    <p>
-        I am passionate about programming and software development.
-        I have knowledge of Python, C, Java, HTML and CSS.
-        I enjoy solving coding problems and learning new technologies.
-    </p>
-
-</section>
-<footer>
-    <p>&copy; Darshini. All Rights Reserved.</p>
-    
-</footer>
-</body>
-</html>
-```
-
-## projects.html
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>My Projects</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section>
-
-<div class="card">
-<h3>Portfolio Website</h3>
-<p>Responsive website using HTML and CSS.</p>
-</div>
-
-<div class="card">
-<h3>Student Management System</h3>
-<p>Developed using C language.</p>
-</div>
-
-<div class="card">
-<h3>Python Calculator</h3>
-<p>Calculator developed using Python.</p>
-</div>
-
-</section>
-<footer>
-    <p>&copy; Darshini. All Rights Reserved.</p>
-    
-</footer>
-</body>
-</html>
-```
-
-## contact.html
-```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>Contact Me</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section>
-
-<h2>Contact Details</h2>
-
-<p>Email : darshini.monish@gmail.com</p>
-
-<p>GitHub : https://github.com/arshinimonish-tech</p>
-
-</section>
-<footer>
-    <p>&copy; DARSHINI R. All Rights Reserved.</p>
-</footer>
-</body>
-</html>
-```
-
-## style.css
-```
-body{
-    font-family:Arial,sans-serif;
-    margin:0;
-    background:#f2f2f2;
-}
-
-header{
-    background:#0066cc;
-    color:white;
-    padding:20px;
-    text-align:center;
-}
-
-nav{
-    background:#222;
-    text-align:center;
-    padding:15px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:20px;
-    font-size:18px;
-}
-
-nav a:hover{
-    color:yellow;
-}
-
-section{
-    padding:30px;
-    text-align:center;
-}
-
-img{
-    border-radius:50%;
-}
-
-.card{
-    width:250px;
-    display:inline-block;
-    margin:15px;
-    padding:20px;
-    background:white;
-    box-shadow:0 0 10px gray;
-    transition:0.4s;
-}
-
-.card:hover{
-    background:#0066cc;
-    color:white;
-    transform:scale(1.05);
-}
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:250px;
-}
-
-footer p{
-    margin:8px 0;
-}
-
-footer a{
-    color:white;
-    text-decoration:none;
-    margin:0 10px;
-    transition:0.3s;
-}
-
-footer a:hover{
-    color:yellow;
-}
-```
-
 ## OUTPUT
-<img width="957" height="576" alt="image" src="https://github.com/user-attachments/assets/67f522bf-c261-4e87-875b-6ffab1c61578" />
-<img width="1086" height="500" alt="image" src="https://github.com/user-attachments/assets/4c5ded3a-0ad3-4a66-a9d1-7a5f20dbb2a2" />
-<img width="1080" height="610" alt="image" src="https://github.com/user-attachments/assets/4bab7ecf-636a-4dd3-a771-2334c589bf02" />
+<img width="1895" height="830" alt="screenshot 3" src="https://github.com/user-attachments/assets/84b18dbf-da9f-47b3-ae7a-8c5e1b50b44d" />
+<img width="1740" height="904" alt="screenshot 5" src="https://github.com/user-attachments/assets/b6bb956f-0d80-43a1-9aab-33b647a1c0b8" />
+
+## RESULT
+The program for creating Portfolio using HTML and CSS is executed successfully.
+
